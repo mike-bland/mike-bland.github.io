@@ -5,6 +5,11 @@
 	box-sizing: border-box;
 }
 
+div {
+	height: 100vh;
+	background-color: #d3d3d3;
+}
+
 h1 {
     padding-top: 50px;
     text-align: center;
@@ -34,4 +39,18 @@ li > a {
 	text-decoration: underline;
 }
 
+h2 {
+	text-align: center;
+}
+
+p {
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+#box1 {
+	width: 500px;
+	height: 500px;
+	border: 2px solid red;
+}
 

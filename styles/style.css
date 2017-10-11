@@ -49,8 +49,23 @@ p {
 }
 
 #box1 {
+	float: left;
+	display: block;
 	width: 500px;
 	height: 500px;
-	border: 2px solid red;
+	margin-left: 25px;
 }
-
+#box2 {
+	float: left;
+	display: block;
+	width: 500px;
+	height: 500px;
+	margin-left: 25px;
+}
+#box3 {
+	float: left;
+	display: block;
+	width: 500px;
+	height: 500px;
+	margin-left: 25px;
+}

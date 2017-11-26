@@ -44,9 +44,12 @@ pic[15] = '                   |'
 pic[16] = ' ------------------+'
 
 word =  random.choice(readWords())
+length = len(word)
 print (word)
+print (length)
 
 spaces = "_ " * len(word)
+
 
 def f(x):
     for line in x:
@@ -55,32 +58,40 @@ def f(x):
 for i in range(len(word)):
     guess = input("letter? ")
 
-    if guess in word:
+    if wrong == length:
+        print("Game Over!")
+         
+
+    elif guess in word:
         pos = word.index(guess)
         spaces = insertLetter(spaces, guess, pos)
+
+
     else:
         wrong = wrong + 1
         print("nope")
 
-        if wrong ==1:
+        if wrong ==1 and wrong < length:
             pic[2] = '       +---+       |'
             pic[3] = '       +   +       |'
             pic[4] = '       +---+       |'
 
-        if wrong == 2:
+        if wrong == 2 and wrong < length:
             pic[5] = '      +-----+      |'
             pic[6] = '      +     +      |'
             pic[7] = '      +     +      |'
             pic[8] = '      +     +      |'
             pic[9] = '      +-----+      |'
 
-        if wrong == 3:
+        if wrong == 3 and wrong < length:
             pic[5] = '----- +-----+ -----|'
             
-        if wrong == 4:
+        if wrong == 4 and wrong < length:
             pic[10] = '     /       \     |'
             pic[11] = '    /         \    |'
             pic[12] = '   /           \   |'
+
+
 
 
     pic[17] = spaces

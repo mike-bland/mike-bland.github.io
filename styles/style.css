@@ -48,7 +48,7 @@ li > a {
 	text-decoration: underline;
 }
 
-h2 {
+h2, h3 {
 	text-align: center;
 }
 
@@ -76,4 +76,49 @@ p {
 	display: block;
 	width: 500px;
 	height: 500px;
+}
+
+#box4 {
+	float: left;
+	width: 515px;
+	height: 320px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#box5 {
+	float: left;
+	width: 515px;
+	height: 320px;
+	margin-right: 10px;
+}
+
+#box6 {
+	float: left;
+	width: 515px;
+	height: 320px;
+}
+
+#box7 {
+	float: left;
+	width: 515px;
+	height: 320px;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#box8 {
+	float: left;
+	width: 515px;
+	height: 320px;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+
+#box9 {
+	float: left;
+	width: 515px;
+	height: 320px;
+	margin-top: 30px;
 }

@@ -9,7 +9,7 @@ import collections
 length = 4
 guesses = 10
 pattern = [random.choice('RBWG') for _ in range(length)]
-#print (*pattern) # for debugging
+print (*pattern) # for debugging
 counted = collections.Counter(pattern)
 
 def running():

@@ -2,9 +2,9 @@
 # Paper, Rock Scissor game
 #
 
-y = ['paper','rock','scissors']
+y = ['P','R','S']
 
-x = input('Make your choice: (q to quit)')
+x = input('Make your choice(P, R, S): (q to quit)')
 
 if x != 'q' and x in y:
     while (x != 'q') and x in y:
@@ -13,13 +13,13 @@ if x != 'q' and x in y:
              
         z = randint(0, 2)
 
-        if x == 'paper':
+        if x == 'P':
             human = 0
                 
-        if x == 'rock':
+        if x == 'R':
             human = 1
 
-        if x == 'scissors':
+        if x == 'S':
             human = 2
 
 

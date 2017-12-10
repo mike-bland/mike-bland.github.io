@@ -122,3 +122,36 @@ p {
 	height: 320px;
 	margin-top: 30px;
 }
+
+#box10 {
+	float: left;
+	width: 515px;
+	height: 320px;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#box11 {
+	float: left;
+	width: 515px;
+	height: 320px;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+
+#box12 {
+	float: left;
+	width: 515px;
+	height: 320px;
+	margin-top: 30px;
+}
+
+#box13 {
+	float: left;
+	width: 515px;
+	height: 320px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
